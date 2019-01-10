@@ -1,0 +1,16 @@
+{
+	"name": "@x2ts/china-district",
+	"version": "1.0.1",
+	"description": "district of China",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "node list2tree.js | node_modules/\\@babel/cli/bin/babel.js -f - > dist/index.js"
+	},
+	"author": "xts",
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/cli": "^7.2.3",
+		"@babel/core": "^7.2.2",
+		"@babel/preset-env": "^7.2.3"
+	}
+}

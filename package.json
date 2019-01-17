@@ -1,6 +1,6 @@
 {
 	"name": "@x2ts/china-district",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "district of China",
 	"main": "dist/index.js",
 	"scripts": {
